@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#Cabeçalho{
+    background-color: #303030;
+    background-size: cover;
+}
+
+#titulo{
+    padding-top: 170px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 60px;
+}
+
+#descricao{
+    margin-left: 60px;
+    padding-bottom: 110px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+.texto-menusuperior{
+    color: #FFFFFF;
+}
+
+#painel-informacional{
+    background-color: #F9F9F9;
+    padding-top: 80px;
+    padding-left: 170px;
+    color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    text-align: start;
+}
+
+.titulos-painel{
+    color: #000000;
+    font-size: 28px;
+}
+
+.textos-painel{
+    font-size: 20px;
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 70px;
+    font-weight: 500;
+}
+
+#descricao{
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+
+#img-descricao{
+    margin-top: 140px;
+}
+
+#titulo-descricao{
+    margin-top: 340px;
+}
+
+#texto-descricao{
+    margin-top: 60px;
+    font-weight: 300;
+    font-size: 24px;
+}  
+
+#formulario{
+    background-color: #303030;
+    text-align: center;
+    padding-bottom: 160px;
+    padding-top: 80px;
+    font-size: 15px;
+}
+
+#titulo-formulario{
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+input{
+    border: 0px;
+    width: 450px;
+    height: 70px;
+    top: 1661px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    font-weight: 700;
+    margin: 30px;
+    cursor: pointer;
+    padding-left: 28px;
+    font-size: 20px;
+}
+
+input::placeholder{
+    color: #6f6d6d8f;
+}
+
+button{
+    border: 0px;
+    color: #FFFFFF;
+    background-color: #C07212;
+    position: absolute;
+    width: 240px;
+    height: 68px;
+    left: 620px;
+    margin-top: 30px;
+    border-radius: 12px;
+    font-size: 23px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #e1dcdc;
+    background-color: #905b1b;
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+    box-shadow: 10px 10px 30px #000000;
+}
